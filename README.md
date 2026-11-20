@@ -4,7 +4,7 @@ AUREL is a premium minimalist men's fashion storefront homepage built with React
 
 ## Live Demo
 
-[View Live Website](YOUR_LIVE_DEMO_URL)
+View Live Website: https://aurel-storefront.netlify.app/
 
 ## Features
 
@@ -60,7 +60,7 @@ aurel/
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone: https://github.com/saurabh-2414/aurel-fashion-storefront
 ```
 
 ### 2. Navigate to the project directory
