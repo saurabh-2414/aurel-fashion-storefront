@@ -1,0 +1,155 @@
+/* Announcement Bar */
+
+.announcement-bar {
+  background: var(--color-primary);
+  color: var(--color-background);
+  text-align: center;
+  padding: 10px 15px;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+/* Navbar */
+
+.navbar {
+  background: var(--color-background);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(37, 33, 30, 0.08);
+}
+
+.navbar-container {
+  max-width: 1400px;
+  margin: auto;
+  padding: 15px 6%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+
+.logo {
+  font-family: var(--font-heading);
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 7px;
+}
+
+/* Navigation Links */
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 35px;
+  margin-left: auto;
+}
+
+.nav-links a {
+  text-transform: uppercase;
+  color: var(--color-primary);
+  font-size: 12px;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: var(--color-secondary);
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: -5px;
+  left: 0;
+  background: currentColor;
+  transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+/* Navbar Actions */
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.icon-button,
+.menu-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-button {
+  display: none;
+}
+
+/* Search */
+
+.search-container {
+  padding: 20px 6%;
+  border-top: 1px solid rgba(37, 33, 30, 0.08);
+}
+
+.search-container input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-bottom: 1px solid var(--color-primary);
+  background: transparent;
+  outline: none;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+  .navbar-container {
+    padding: 18px 5%;
+  }
+
+  .logo {
+    font-size: 23px;
+    letter-spacing: 5px;
+  }
+
+  .menu-button {
+    display: flex;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: var(--color-background);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px 5%;
+    gap: 25px;
+    border-bottom: 1px solid rgba(37, 33, 30, 0.1);
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+  }
+}
