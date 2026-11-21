@@ -7,8 +7,7 @@ const slides = [
     eyebrow: "THE NEW COLLECTION",
     title: "Less, but better.",
     description: "Thoughtfully designed essentials for the modern wardrobe.",
-    image:
-      "https://plus.unsplash.com/premium_photo-1710911198900-f27585522890?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",    
+    image: "https://plus.unsplash.com/premium_photo-1710911198900-f27585522890?auto=format&fit=crop&w=1920&q=90",
     button: "Explore Collection",
     link: "#products",
   },
@@ -17,7 +16,7 @@ const slides = [
     title: "Wear the feeling.",
     description: "Elevated everyday pieces. Made to move with you.",
   image:
-  "https://plus.unsplash.com/premium_photo-1792370725393-63eb037bf254?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",  
+  "https://images.unsplash.com/photo-1667284152861-36e03571486a?q=80&w=1033&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",  
 button: "Discover AUREL",
     link: "#categories",
   },
@@ -25,8 +24,7 @@ button: "Discover AUREL",
     eyebrow: "THE ESSENTIALS",
     title: "Made for every day.",
     description: "Quiet confidence. Effortless style. Lasting quality.",
-    image:
-  "https://images.unsplash.com/photo-1516826957135-700dedea698c?auto=format&fit=crop&w=1920&q=90",
+    image: "https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=2400&q=90",
     button: "Shop Essentials",
     link: "#products",
   },
